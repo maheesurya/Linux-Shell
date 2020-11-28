@@ -1,0 +1,22 @@
+cd,pwd,echo have been implemented.
+spaces in between commands have been taken care of.
+commands separated by ';' work.
+ls with appropriate flags also work.
+background process procedure with '&' is implemented.
+'pinfo' is implemented with and without argument.
+makefile has benn written.
+to compile all the files, click 'make'
+to clean all the object files click 'make clean'.
+
+ls.c has function regarding 'ls' command.
+pwd_echo_cd.c has function regarding 'pwd_echo_cd' command.
+background.c has function regarding background processes.
+pinfo.c has function regarding 'pinfo' command.
+main.c has the core part of the program.
+
+only single redirection works and piping works for wc
+redir.c is for redir.c
+
+setenv,unsetenv work well
+jobs and kjob also work well
+ctrl+c doesnt exit the terminal
